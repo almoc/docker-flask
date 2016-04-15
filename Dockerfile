@@ -27,4 +27,6 @@ RUN pip install -r /var/www/app/requirements.txt
 
 #EXPOSE 80
 
+VOLUME /app
+
 CMD ["/usr/bin/supervisord"]
