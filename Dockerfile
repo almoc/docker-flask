@@ -26,7 +26,8 @@ COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 copy app /var/www/app
 RUN pip install -r /var/www/app/requirements.txt
 
-#EXPOSE 80
+EXPOSE 80
+EXPOSE 8000
 
 VOLUME /app
 
