@@ -28,6 +28,7 @@ RUN pip install -r /var/www/app/requirements.txt
 
 EXPOSE 80
 EXPOSE 8000
+EXPOSE 2992
 
 VOLUME /app
 
